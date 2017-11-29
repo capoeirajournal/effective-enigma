@@ -3,5 +3,9 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "Hello, motherfucking world!"
-  end 
+  end
+
+  def welcome
+    render html: "Welcome back, bitch and take a dump of death."
+  end
 end
